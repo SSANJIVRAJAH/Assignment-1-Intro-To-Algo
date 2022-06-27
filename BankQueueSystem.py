@@ -20,7 +20,7 @@ def queue_system():
         try:
             choice = int(input("Enter your options: "))
         except ValueError:
-            print("Please enter a number between 0 and 5 asshole.")
+            print("Please enter a number between 0 and 5 noob.")
             continue
         if choice == 0:  # Issue new ticket number
             print(f"New ticket number: {ticket_number}")  # New ticket number
